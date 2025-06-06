@@ -12,6 +12,9 @@
     #navbar_ul li a{
         font-size: 18px;
     }
+      #navbar_main{
+        width: 100%;
+    }
 }
 @media only screen and (max-width:990px) {
     
@@ -85,6 +88,7 @@
     .work #work_row{
         padding: 20px;
     }
+  
 }
 
 
@@ -112,4 +116,5 @@
     .midle_btn .contact {
         margin-bottom: 30px;
     }
+ 
 }
