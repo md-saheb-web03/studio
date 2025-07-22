@@ -274,6 +274,7 @@ body{
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    margin-right: 30px;
 }
 .see_col .see_col_details{
     /* width: 80%;
@@ -281,11 +282,11 @@ body{
     border: 2px solid #ff214f;
     border-radius: 50%; */
     width: 180px;
-    height: 180px;
+    height: 160px;
     border-radius: 50%;
     border: 2px solid #ff214f;
     text-align: center;
-    padding-top: 40px;
+    padding: 10px;
 }
 #see_row_see_col{
     display: flex;

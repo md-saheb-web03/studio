@@ -89,10 +89,11 @@
         padding: 20px;
     }
   .see #see_row .see_head{
-    display: flex;
+    /* display: flex; */
   }
   #see_row .see_col{
     width: 24%;
+    margin-right: 20px;
   }
   #service_row{
     padding-left: 20px;
@@ -109,9 +110,9 @@
         font-size: 27px;
     }
     .see_col .see_col_details{
-        width: 150px;
+        width: 180px;
         height: 120px;
-        border-radius: 0;
+        border-radius: 50%;
         padding-right: 10px;
     }
     .see_col_details_para i{
@@ -149,5 +150,13 @@
     .midle_btn .contact {
         margin-bottom: 30px;
     }
- 
+      .see_col .see_col_details{
+        width: 90px;
+        height: 80px;
+        border-radius: 50%;
+        padding-right: 10px;
+    }
+    .see_col_details_para h3{
+        font-size: 15px;
+    }
 }
