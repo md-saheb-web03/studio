@@ -88,7 +88,40 @@
     .work #work_row{
         padding: 20px;
     }
-  
+  .see #see_row .see_head{
+    display: flex;
+  }
+  #see_row .see_col{
+    width: 24%;
+  }
+  #service_row{
+    padding-left: 20px;
+  }
+  #portfolio_row {
+    padding-left: 20px;
+  }
+  #team_row{
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width:760px) {
+    .see #see_row .see_head h3 {
+        font-size: 27px;
+    }
+    .see_col .see_col_details{
+        width: 150px;
+        height: 120px;
+        border-radius: 0;
+        padding-right: 10px;
+    }
+    .see_col_details_para i{
+        font-size: 25px;
+    }
+    #see_row_see_col{
+        display: flex;
+        justify-content: space-between;
+        
+    }
 }
 
 

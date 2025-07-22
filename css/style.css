@@ -287,6 +287,9 @@ body{
     text-align: center;
     padding-top: 40px;
 }
+#see_row_see_col{
+    display: flex;
+}
 .see_col_details_para i{
     color: #ff214f;
     font-size: 50px;
